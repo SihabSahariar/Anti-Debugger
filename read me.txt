@@ -1,0 +1,9 @@
+Title: Anti-Debugger for SoftIce, Win32Dasm and Other Disassemblers.
+
+This code attempts to detect and disable the following:
+(If it can't disable, it'll just quit)
+Win32Dasm, Debuggy, OllyDBG, 
+ProcDump, SoftSnoop, TimeFix, TMR Ripper Studio, Regmon and Filemon. 
+It also attempts to add protection against other step-debugging applications. 
+(TimeFix-kill used before this check too!!)
+
